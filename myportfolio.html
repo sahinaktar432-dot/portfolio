@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahin Aktar Barlaskar | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ios-blue: #007AFF;
+            --deep-blue: #001f3f;
+            --glass: rgba(255, 255, 255, 0.1);
+            --text-white: #ffffff;
+            --text-light: #d1e9ff;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: radial-gradient(circle at top left, #004e92, #000428);
+            color: var(--text-white);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .resume-card {
+            max-width: 800px;
+            width: 100%;
+            background: var(--glass);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 24px;
+            padding: 50px;
+            box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -1px;
+            background: linear-gradient(to right, #ffffff, #82caff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .title {
+            font-size: 1.3rem;
+            color: var(--ios-blue);
+            font-weight: 600;
+            margin-top: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .contact {
+            margin-top: 20px;
+            font-size: 0.95rem;
+            color: var(--text-light);
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--ios-blue);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.2);
+            margin-left: 15px;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill-pill {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .skill-pill:hover {
+            background: var(--ios-blue);
+            transform: translateY(-2px);
+        }
+
+        /* Fixed Single Line Date Layout */
+        .job-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 8px;
+        }
+
+        .company-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .job-date {
+            font-size: 0.95rem;
+            font-weight: 400;
+            color: var(--text-light);
+            white-space: nowrap; /* Prevents date from wrapping */
+        }
+
+        .job-role {
+            font-style: italic;
+            color: var(--ios-blue);
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 18px;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: rgba(255, 255, 255, 0.85);
+        }
+
+        .edu-box {
+            background: rgba(0, 122, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 4px solid var(--ios-blue);
+        }
+
+        .college-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-card">
+    <header>
+        <h1>SHAHIN AKTAR BARLASKAR</h1>
+        <div class="title">Professional Video Editor</div>
+        <div class="contact">
+            <span>📞 6900692855</span>
+            <span>✉️ business.aktar77@gmail.com</span>
+        </div>
+    </header>
+
+    <section>
+        <h2>The Profile</h2>
+        <p style="font-size: 1.1rem; line-height: 1.7; font-weight: 300;">
+            Passionate video editor managing 4+ YouTube and Instagram accounts. I specialize in high-impact visual styles including <b>Velocity, Phonk, and Cinematic Transitions</b>. My focus is on delivering trend-driven content that maximizes digital reach and audience engagement.
+        </p>
+    </section>
+
+    <section>
+        <h2>Technical Stack</h2>
+        <div class="skills-grid">
+            <span class="skill-pill">DaVinci Resolve</span>
+            <span class="skill-pill">After Effects</span>
+            <span class="skill-pill">CapCut</span>
+            <span class="skill-pill">Content Creation</span>
+            <span class="skill-pill">Scripting</span>
+            <span class="skill-pill">AI Video Tools</span>
+            <span class="skill-pill">Smooth Transitions</span>
+            <span class="skill-pill">Instagram Reels</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="job-row">
+            <div class="company-name">Freelance Insider (Fi)</div>
+            <div class="job-date">May 2024 — Feb 2026</div>
+        </div>
+        <div class="job-role">Video Editor & Content Creator</div>
+        <ul>
+            <li>Lead editor for 4+ diverse social media accounts, focusing on viral aesthetics.</li>
+            <li>Mastered high-energy "Velocity" and "Phonk" edits to boost viewer retention.</li>
+            <li>Collaborated on script-to-screen production using industry-standard tools.</li>
+            <li>Consistently achieved high-quality results at competitive, affordable rates.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="edu-box">
+            <div class="college-title">Physics Wallah Vidyapeeth (PWV)</div>
+            <div style="color: var(--text-light);">India</div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
